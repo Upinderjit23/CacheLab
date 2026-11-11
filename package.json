@@ -1,0 +1,35 @@
+{
+  "type": "module",
+  "private": true,
+  "name": "cachelab",
+  "version": "1.0.0",
+  "description": "Tool that tests and tunes semantic cache thresholds for LLM apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Upinderjit23/CacheLab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Upinderjit23/CacheLab/issues"
+  },
+  "homepage": "https://github.com/Upinderjit23/CacheLab#readme",
+  "workspaces": [
+    "core",
+    "server",
+    "worker"
+  ],
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "prettier": "^3.9.10",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.12"
+  }
+}
